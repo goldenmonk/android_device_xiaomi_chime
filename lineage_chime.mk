@@ -11,6 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from chime device
 $(call inherit-product, device/xiaomi/chime/device.mk)
 
+# inherit vendor e
+$(call inherit-product, vendor/e/config/common.mk)
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
