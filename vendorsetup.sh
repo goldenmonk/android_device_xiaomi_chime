@@ -1,1 +1,3 @@
-export EOS_DEVICE=chime
+export EOS_DEVICE=lineage_chime
+export EOS_SIGNATURE_SPOOFING=yes
+export EOS_RELEASE_TYPE=UNOFFICIAL
